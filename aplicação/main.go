@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("Iniciando aplicação...")
 
 	aplicacao := app.Gerar()
-	if erro := aplicacao.Run(os.Args); erro != nil{
+	if erro := aplicacao.Run(os.Args); erro != nil {
 		log.Fatal(erro)
 	}
 }
